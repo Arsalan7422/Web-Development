@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+.outerbox{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top left, #3ed8ff,#a8f5ff);
+}
+.innerbox{
+    width: 320px;
+    margin: 0 auto;
+    padding: 20px 50px;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    background-color: white;
+    border-radius: 7px;
+    border: 2px solid #212121;
+    z-index: 2;
+}
+.header h1{
+    font-size: 2rem;
+    color: #212121;
+}
+.header p{
+    font-size: 1rem;
+    margin:10px 0;
+}
+.signupbody{
+     margin: 5px 0;
+     display: block;
+}
+.signupbody p{
+      margin:5px 0;
+}
+.signupbody p label{
+    margin: 10px 0;
+}
+.signupbody p input{
+    width: 100%;
+    margin: 5px 0;
+    border: 2px solid #212121;
+}
+#submit:hover{
+    background-color: #15bee9;
+    cursor: pointer;
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    background: linear-gradient(to top right,#ffffffaa,#ffffffff);
+    position: absolute;
+}
+.c1{
+    top: 50px;
+    bottom: 400px;
+    left: 20px;
+}
+.c2{
+bottom: 150px;
+right: 100px;
+}
+
+
+
+
+
+
+
+
