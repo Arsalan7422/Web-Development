@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            position: relative;
+            height: 80vh;
+            width: 80vw;
+            background-color: blue;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+            background-color: red;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            
+            animation: Arsalanx 3s linear  infinite,Arsalany 1s ease-out infinite alternate;
+        }
+        @keyframes Arsalanx{
+            from{
+           left: 0;
+            }
+            to{
+           left: 80%;
+            }
+        } 
+        @keyframes Arsalany{
+           from{
+          top: 0;
+           }
+           to{
+          top: 80%;
+           }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
