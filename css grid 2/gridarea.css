@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ height: 100%;
+ width: 100%;
+ background-color: rgb(39, 37, 37);
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(103, 112, 112);
+    display: grid;
+    gap: 1rem;
+    padding: 4rem;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    /* justify-content: center; */
+    /* align-content: end; *//
+    /* place-self:end; */
+}
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(75, 158, 158);
+    border: 5px solid white;
+    /* For horizontal axis */
+    /* justify-self: end; */
+    /* justify-self: center; */
+    /* for vertical axis */
+    /* align-self: center; */
+    /* place-self: center; */
+}
